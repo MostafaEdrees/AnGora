@@ -1,0 +1,429 @@
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.section1{
+width: 100%;
+height: 100vh;
+
+font-family: "Open Sans", sans-serif;
+position: relative;
+}
+.layer-1{
+    position: absolute;
+    color: white;
+}
+.control2{
+    
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.control21{
+    
+    width: 100%;
+    height: 50%;
+text-align: center;
+
+display: flex; 
+align-items: center;
+justify-content: center;
+}
+.control{
+    width: 50px;
+    height: 100px;
+    background-color: transparent;
+    position:absolute;
+    top: 50%; 
+    z-index: 23456789;
+    border: 1px solid white;
+border-left: none !important;
+}
+.button1{
+    background-color: transparent;
+    border: none;
+    border-left: none !important;
+}
+.control3{
+    width: 40px;
+    height: 40px;
+  position: fixed;
+  z-index: 2345678;
+  
+    top: 30%; 
+  font-size: larger;
+    z-index: 23456789;
+    border: 2px solid transparent;
+background-color: black;
+color: white;
+
+}
+
+.navbar{
+    background-color: white !important;
+   
+}
+.nav{
+    width: 100%;
+    position: fixed;
+    z-index: 23456789;
+}
+
+.nav-icon .ico{
+    color: black !important;
+}
+.logo img{
+    background-color:black;
+ width: 100%;
+ height: 100%;
+ border-radius: 50%;
+}
+.nav-link{
+color: black !important; 
+font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .5px;
+  
+    background-color: transparent !important;
+    padding-right:20px !important;
+
+}
+.nav-link:hover{
+    color:crimson !important;
+    transition: 0.2s;
+ 
+}
+.span{
+    color:crimson !important; 
+
+
+}
+.head{
+    font-size: 70px !important;
+    font-weight: 800 !important;
+    color: white !important;
+}
+
+
+
+
+.indicator-item img{
+    width: 110px !important;
+    height: 110px !important;
+}
+
+.indicator-item img.active{
+    width: 140px !important;
+    height: 140px !important;
+}
+
+.single-box p{
+    width: 400px;
+    margin: auto;
+}
+
+.client-info h3 {
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+}
+
+.client-info{
+    display: none;
+}
+
+.indicator-item img.active:first-of-type + div{
+    display: block;
+}
+.section2{
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.vel{
+    font-size: 14px;
+    line-height: 1.75em;
+  
+    margin: 0 0 40px;
+    padding: 0px 15px;
+}
+
+.progress-bar{
+      background-color : #f25454;
+}
+.progres{
+    padding: 0px 15px;
+}
+
+
+
+
+
+
+.icon{
+
+
+font-size: 40px;
+
+color: crimson;
+
+
+
+}
+.Address:hover h4{
+    color: crimson;
+    transition: 0.5s ;
+}
+.form-control{
+    padding: 14px 18px ;
+}
+body{
+    color: #666;
+}
+.btn{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+
+    width: 150px;
+   
+}
+
+.btn:hover{
+  
+    color: white !important;
+ 
+   
+}
+
+
+.section7 h4{
+    margin:10px 0px 20px !important;
+    color: white !important;
+}
+.section7{
+    color: rgb(160, 159, 159);
+}
+.buttom7 .btn{
+
+
+border: 1px solid   rgb(160, 159, 159);
+
+
+}
+.buttom7:hover .btn{
+
+color: tomato !important;
+
+
+}
+.More{
+    font-size: 50px;
+position: absolute;
+    display: flex;
+    width: 20%;
+top: 13%;
+left: 40%;
+font-weight: 600;
+    justify-content: center;
+    font-weight: 500;}
+    .ABOUT-ME{
+       
+        display: flex;
+        justify-content: center;
+        font-size: 100px;
+        opacity:0.1 ;
+        color: slategrey;
+        font-weight: 700;
+    }
+    .backhead2 { position: relative;
+        text-align: center;
+        width: 100%;
+    }
+    .contain-icon{
+
+
+        color: white;
+    }
+    .ico:hover{
+
+transition: 0.2s;
+        color: crimson !important;
+    }
+    .ico{
+        padding-right: 20px;
+        font-size: 20px;
+    }
+    .Angora{
+        color: white;
+        text-decoration: none;
+
+    }
+.team-layer{
+width: 100%;
+height: 100%;
+top:0;
+position: absolute;
+background-color: rgba(242, 84, 84, 0.85);
+display: flex;
+align-items: center;
+justify-content: center;
+opacity: 0;
+transition:all 0.5s;
+border-radius: 5px;
+overflow: hidden;
+}
+.contain-icon{ 
+    top: 5%;
+    position: relative;
+    transition:  0.3s ease-in-out;
+  
+}
+.teams:hover .contain-icon{ 
+    top: 0;
+    transition:  0.3s ease-in-out;
+  
+}
+.team-img{
+position: relative;
+transition:all 0.5s;
+
+}
+.team-imgs{
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.teams:hover .team-layer{
+    opacity: 1;
+    transition: 0.5s;
+}
+.teams:hover h5{
+color: tomato;
+transition: 0.5s;
+}
+.teams:hover img{
+  transform: scale(1.1,1.1);
+    transition: 0.5s;
+    }
+.layer-over{
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+.team-img img .team-layer {
+transition:transform 0.5s ease-in-out  ;
+}
+.team-img img  {
+    transition:transform 0.5s ease-in-out  ;
+    }
+.team-contant h5{
+    transition: 0.5s ease-in-out  ;
+}
+h5{
+    font-family:  sans-serif;
+}
+.ideas{
+ 
+    background-color: tomato !important; 
+
+ 
+    text-decoration: none;
+}
+.ideas:hover{
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .Services-box{
+        margin: 0px 0px 40px ;
+    }
+    .Services-box h3{
+        margin: 0px 0px 10px ;
+    }
+    .Services-icon{
+        color:crimson; 
+        padding: 15px;
+       
+    }
+    .Services-box:hover h3{
+        color:crimson; 
+        transition: 0.5s;
+    }
+    .Services-box h3{
+    
+       
+      font-size: 20px;
+      font-weight: 700;
+   
+    }
+   .Services-box p{
+    font-family: 'Source Sans Pro', sans-serif;
+   }
+
+.send{
+    background-color: #f25454!important;
+}
+
+
+   .carousel-inner2 {
+       
+
+    margin-top: 50px;
+    
+        }
+        .Info{
+            color: white;
+        }
+        .Link .a{
+            text-decoration: none;
+            color: white;
+        }
+        .Link{
+
+padding:  10px;
+text-align: center;
+border-radius: 5px;
+margin: 3px;
+
+border: 1px solid gray;
+
+        }
+   @media screen and (max-width: 900px) and (min-width: 600px)  {
+   
+   
+    .carousel-item h1{
+font-size: 40px !important;
+    }
+    .control{
+        top: 40% !important;
+     
+  
+    }
+   
+    .media{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-size: 18px;
+   
+    }
+  }
